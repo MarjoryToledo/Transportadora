@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = 'pt-br'>
+    <head>
+        <meta charset = 'utf-8'>
+        <meta name = 'viewport' content = 'width=device-width, initial-scale=1.0'>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Controle de Abastecimento</title>
+        <link rel='stylesheet' href="css/style.css">
+    </head>
+    <body>
+        <div id ="main-container">
+            <h1>Controle de Abastecimento</h1>
+            <div class="parent">
+                <img src="imagens/logo.png" >
+            </div>
+            <form id="register-form" action ="">
+                <div class="full-box">
+                    <label for="data">Data</label>
+                    <input type="date" name="data" id="data" placeholder="Insira a Data de Abastecimento">
+                </div>
+                <div class="half-box">
+                    <label for="Marca">Marca</label>
+                    <input type="text" name="Marca" id="Marca" placeholder="Insira a Marca do Veiculo">
+                </div>
+                <div class="half-box">
+                    <label for="Modelo">Modelo</label>
+                    <input type="text" name="Modelo" id="Modelo" placeholder="Insira o Modelo do Veiculo">
+                </div>
+                <div class="half-box">
+                    <label for="KM">Kilometragem</label>
+                    <input type="text" name="KM" id="KM" placeholder="Insira a quilometragem atual do veiculo:">
+                </div>
+                <div class="half-box">
+                    <label for="Valor">Valor do Abastecimento</label>
+                    <input type="number" name="Valor" id="Valor" placeholder="Insira o valor do abastecimento:">
+                </div>
+                <div class="half-box">
+                    <label for="litro">Quantidade de Litro</label>
+                    <input type="number" name="Litro" id="Litro" placeholder="Insira a quantidade de litros abastecidos:">
+                </div>
+                <div class="half-box">
+                    <label for="litro">CNPJ Estabelecimento</label>
+                    <input type="number" name="CNPJ" id="CNPJ" placeholder="Insira o CNPJ posto de combustivel:">
+                </div>
+                <div class="full-box">
+                    <input type="submit" name="agreement" id="btn-subimit" value="Cadastrar">
+                </div>
+            </form>
+        </div>
+        <p class="error-validation template"></p>
+        <script src = 'js/script.js'></script>
+    </body>
+</html>
